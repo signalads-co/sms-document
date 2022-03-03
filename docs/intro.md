@@ -36,14 +36,18 @@ You can also initialize a new project using your preferred project manager:
 <Tabs>
 <TabItem value="php">
 
-```PHP
-echo 'hi';
+```bash
+$colors = array("red", "green", "blue", "yellow");
+
+foreach ($colors as $value) {
+  echo "$value <br>";
+}
 ```
 
 </TabItem>
 <TabItem value="javascript">
 
-```javascript
+```js
 console.log('hi)
 ```
 
