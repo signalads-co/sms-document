@@ -5,6 +5,7 @@ slug: /
 ---
 
 
+
 # شروع
 
 تمام درخواست ها به
@@ -17,9 +18,48 @@ https://example.com/v1/APIKEY/METHOD
 
 متد ها شامل :
 
+
+
 ### ارسال تکی
 
 - send
+
+
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
+You can also initialize a new project using your preferred project manager:
+
+````mdx-code-block
+<Tabs>
+<TabItem value="php">
+
+```PHP
+echo 'hi';
+```
+
+</TabItem>
+<TabItem value="javascript">
+
+```javascript
+console.log('hi)
+```
+
+</TabItem>
+<TabItem value="python">
+
+```python
+print("hi")
+```
+
+</TabItem>
+</Tabs>
+````
+
+
+
 
 ### ارسال چندتایی
 
