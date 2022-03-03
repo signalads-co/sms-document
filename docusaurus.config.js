@@ -29,7 +29,7 @@ const config = {
 
     ],
   ],
-  plugins: ['docusaurus-plugin-fontloader'],
+//   plugins: ['docusaurus-plugin-fontloader'],
   i18n: {
     defaultLocale: 'fa',
     locales: ['fa'],
