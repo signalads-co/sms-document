@@ -4,6 +4,101 @@
  * work well for content-centric websites.
  */
 
+
+
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('././../../static/fonts/iransans/IRANSansWeb_Bold.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb_Bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb_Bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('././../../static/fonts/iransans/IRANSansWeb_Medium.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb_Medium.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb_Medium.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('././../../static/fonts/iransans/IRANSansWeb_Light.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb_Light.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb_Light.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('././../../static/fonts/iransans/IRANSansWeb.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansFa;
+  font-style: normal;
+  font-weight: bold;
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Bold.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Bold.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansFa;
+  font-style: normal;
+  font-weight: 500;
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Medium.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Medium.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Medium.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansFa;
+  font-style: normal;
+  font-weight: 300;
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Light.eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Light.woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSansFa;
+  font-style: normal;
+  font-weight: normal;
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum).eot');
+  src: url('././../../static/fonts/iransans/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'),
+    /* IE6-8 */ url('././../../static/fonts/iransans/IRANSansWeb(FaNum).woff2') format('woff2'),
+    /* FF39+,Chrome36+, Opera24+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum).woff') format('woff'),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('././../../static/fonts/iransans/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+
+* , h1,div{
+  font-family:IRANSans,tahoma, sans-serif !important;
+                                                                              
+}
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -14,6 +109,8 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-monospace: IRANSansFa;
+  --ifm-font-family-base: IRANSansFa;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -36,8 +133,11 @@ html[data-theme='dark'] {
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+  
 }
-* {
-  font-family: IRANSans;
-}
+/* @import url('http://fonts.cdnfonts.com/css/iranian-sans'); */
+/* @import './font.css'; */
+
+
 /* fonts */
+
