@@ -29,7 +29,6 @@ const config = {
 
     ],
   ],
-  plugins: ['docusaurus-plugin-fontloader'],
   i18n: {
     defaultLocale: 'fa',
     locales: ['fa'],
@@ -50,7 +49,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `.تمامی حقوق و محتوا برای شرکت پردازش اطلاعات مالی پارت محفوظ می باشد ©`,
+        copyright: `تمامی حقوق و محتوا برای شرکت پردازش اطلاعات مالی پارت محفوظ می باشد.`,
       },
     }),
 };
