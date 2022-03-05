@@ -25,18 +25,15 @@ https://example.com/v1/APIKEY/METHOD
 - send
 
 
-```mdx-code-block
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-```
 
-You can also initialize a new project using your preferred project manager:
 
-````mdx-code-block
+
 <Tabs>
-<TabItem value="php">
+<TabItem value="php" label="PHP ">
 
-```bash
+```php
 $colors = array("red", "green", "blue", "yellow");
 
 foreach ($colors as $value) {
@@ -48,14 +45,17 @@ foreach ($colors as $value) {
 <TabItem value="javascript">
 
 ```js
-console.log('hi)
+function helloWorld() {
+  console.log('Hello, world!');
+}
 ```
 
 </TabItem>
 <TabItem value="python">
 
-```python
-print("hi")
+```py
+def hello_world():
+  print 'Hello, world!'
 ```
 
 </TabItem>

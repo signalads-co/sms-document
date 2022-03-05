@@ -51,6 +51,11 @@ const config = {
         style: 'dark',
         copyright: `تمامی حقوق و محتوا برای شرکت سیگنال محفوظ می باشد.`,
       },
+      prism: {
+        additionalLanguages: ["php"],
+        theme:require('prism-react-renderer/themes/shadesOfPurple'),
+
+      },
     }),
 };
 
